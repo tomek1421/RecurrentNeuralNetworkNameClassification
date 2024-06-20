@@ -74,18 +74,3 @@ def random_training_example(category_lines, all_categories):
     category_tensor = torch.tensor([all_categories.index(category)], dtype=torch.long)
     line_tensor = line_to_tensor(line)
     return category, line, category_tensor, line_tensor
-
-
-
-# if __name__ == '__main__':
-#     print(ALL_LETTERS)
-#     # convert name
-#     print(unicode_to_ascii('Ślusàrski'))
-    
-#     category_lines, all_categories = load_data()
-#     # take first 5 names in Italian
-#     print(category_lines['Italian'][:5])
-    
-#     print(letter_to_tensor('J')) # [1, 57]
-#     print(line_to_tensor('Jones').size()) # [5, 1, 57]
-#     print(line_to_tensor('Jones')) # whole name as vectors
