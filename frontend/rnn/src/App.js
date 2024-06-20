@@ -20,6 +20,8 @@ function App() {
       <Element name="section1" >
         <HowItWorks />
       </Element>
+      <Model />
+      <Footer />
     </div>
   );
 }
