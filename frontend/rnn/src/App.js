@@ -14,7 +14,12 @@ import { Link, Element, scroller } from 'react-scroll';
 function App() {
   return (
     <div className="App">
-      
+      <Element name="hero" >
+        <Hero />
+      </Element>
+      <Element name="section1" >
+        <HowItWorks />
+      </Element>
     </div>
   );
 }
