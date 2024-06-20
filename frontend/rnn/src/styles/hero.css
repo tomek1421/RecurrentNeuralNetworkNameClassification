@@ -1,0 +1,51 @@
+.page {
+    /* border: 1px solid green; */
+    height: 100vh;
+}
+
+.hero-header {
+    /* border: 1px solid red; */
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.hero-header h4 {
+    /* border: 1px solid; */
+    align-self: flex-end;
+    width: fit-content;
+}
+
+.people-img {
+    /* border: 1px solid blue; */
+    width: 70vw;
+    display: block;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-content button {
+    margin-top: 1.5rem;
+}
+
+.up {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 10px;
+    background-color: #C674F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
